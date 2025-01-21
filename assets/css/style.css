@@ -923,7 +923,7 @@ Nav Menu style
     background: url(../images/background/contact-bg.jpg) no-repeat bottom center;
 }
 .about-banner{
-    background: url(../images/background/about-bg.jpg) no-repeat bottom center;
+    background: url(../images/background/services-bg.jpg) no-repeat bottom center;
 }
 .blog-banner{
     background: url(../images/background/blog-bg.jpg) no-repeat bottom center;
@@ -1007,6 +1007,7 @@ About section style
 }
 .work_item_img img{
     width:100%;
+    
 }
 .work_item_details{
     position: relative;
