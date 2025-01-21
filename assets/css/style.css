@@ -1007,7 +1007,7 @@ About section style
 }
 .work_item_img img{
     width:100%;
-    
+    object-fit:cover;
 }
 .work_item_details{
     position: relative;
