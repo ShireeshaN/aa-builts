@@ -1068,6 +1068,7 @@ About section style
     outline: none;
     border-bottom: 1px dotted #333;
     font-weight: 400;
+    padding: 0.5rem 1rem;
 }
 
 .main-gallery .button:focus, 
@@ -1081,17 +1082,18 @@ About section style
 }
 
 .main-gallery .button:hover {
-    color: #faf562;
+    color: #000;
 }
 
 .main-gallery .button:active,
 .main-gallery .button.is-checked {
-    color:#faf562;
+    color:#000000;
+    background: #faf562;
 }
 
 .main-gallery .button.is-checked {
-    color: #faf562;
-    border-bottom: 1px dotted transparent;
+    color: #000000;
+    border-bottom: 1px dotted #000000;
 }
 
 
