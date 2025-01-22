@@ -916,6 +916,10 @@ Nav Menu style
 .service-banner{
     background: url(../images/background/services-bg.jpg) no-repeat bottom center;
 }
+.service-banner.infrastructure{
+    background: url(../images/infrastructure/infra.png) no-repeat bottom center;
+    background-size: cover;
+}
 .model-banner{
     background: url(../images/background/model-bg.jpg) no-repeat bottom center;
 }
