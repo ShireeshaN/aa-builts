@@ -1427,22 +1427,28 @@ Footer Section style
 /* scrollup */
 
 .scrollup{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    opacity: .3;
+    /* width: 30px;
+    height: 30px; */
+    /* font-size: 30px; */
+   
+    opacity: 1;
     position: fixed;
-    bottom: 20px;
-    right: 25px;
+    bottom: 3.2rem;
+    right: 4rem;
     color: #fff;
     cursor: pointer;
-    background-color: #000;
+   
     z-index: 1000;
     transition: opacity .5s, background-color .5s;
     -moz-transition: opacity .5s, background-color .5s;
     -webkit-transition: opacity .5s, background-color .5s;
 }
-
+.scrollup a i{
+    font-size: 30px;
+    padding: 6px;
+    background-color: #0000009c;
+    /* border-radius: 5px; */
+}
 .scrollup:hover {
     background: #faf562;
     opacity: 1;
